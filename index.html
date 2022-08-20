@@ -4,20 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    
 
     <!-- import front -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
     <!-- Boxicons CSS -->
-<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- link file css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
-
-    <div>hello word</div>
-    <script src="./app.js"></script>
+    <header class="header__mobile">
+        <a href="" class="header__mobile__logo">
+            <img src="./assets/img/logo_coffe.svg" alt="">
+        </a>
+        <div class="header__mobile__wraper">
+            <div class="header__mobile__search">
+                <div class="header__mobile__search__icon">
+                    <i class='bx bx-search'></i>
+                </div>
+                <input type="text" class="header__mobile__search__input" placeholder="Search...">
+            </div>
+        </div>
+        <ul class="header__mobile__navbar">
+            <li class="header__mobile__navbar__item">
+              <a href="">
+                About us
+              </a>
+                
+            </li>
+            <li class="header__mobile__navbar__item">
+                <a href="">
+                    Our Product
+                </a>
+                
+            </li>
+            <li class="header__mobile__navbar__item">
+                <a href="">
+                    Delivery
+                </a>
+                
+            </li>
+        </ul>
+        <i class='header__mobile__close bx bx-chevron-left' ></i>
+        
+    </header>
+    <header class="header">
+        <div class="container header__container">
+            <a href="" class="header__logo">
+                <img src="./assets/img/logo_coffe.svg" alt="">
+            </a>
+            <ul class="header__navbar">
+                <li class="header__navbar__item">
+                  <a href="">
+                    About us
+                  </a>
+                    
+                </li>
+                <li class="header__navbar__item">
+                    <a href="">
+                        Our Product
+                    </a>
+                    
+                </li>
+                <li class="header__navbar__item">
+                    <a href="">
+                        Delivery
+                    </a>
+                    
+                </li>
+            </ul>
+            <div class="header__wraper">
+                <div class="header__search">
+                    <div class="header__search__icon">
+                        <i class='bx bx-search'></i>
+                    </div>
+                    <input type="text" class="header__search__input" placeholder="Search...">
+                </div>
+                <div class="header__cart">
+                    <i class='bx bx-cart' ></i>
+                    <div class="header__cart__quantity">3</div>
+                </div>
+            </div>
+            <div class="header__mobile__icon header__mobile__open">
+                <i class='bx bx-menu-alt-right'></i>
+            </div>
+        </div>
+        
+    </header>
+    <main class="app">
+        <img src="./assets/img/bg-image.png" alt="" class="bg__image">
+    </main>
+    <script  src="./assets/js/app.js"></script>
+    <script type="module" src="./assets/js/script2.js"></script>
     <!-- sass ./assets/scss/style.scss ./assets/css/style.css --watch -->
     
 </body>

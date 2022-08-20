@@ -2,3 +2,19 @@
 @import "./mixins";
 @import "./reset";
 @import "./base";
+@import "./components/header";
+
+.app{
+    position: relative;
+}
+.bg__image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
+    
+    z-index: 1;
+    width: 100%;
+     object-fit:cover ;
+    height: 970px;
+}

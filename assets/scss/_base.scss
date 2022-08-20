@@ -1,1 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
+.container{
+    max-width: 1200;
+    padding: 0 40px;
+    margin: 0 auto;
+    width: 100%;
+    @include tablet{
+        padding:0 20px;
+    }
+    @include mobile{
+        padding: 10px;
+    }
+}
